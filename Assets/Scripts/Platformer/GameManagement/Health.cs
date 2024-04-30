@@ -27,10 +27,16 @@ public class Health : MonoBehaviour
 		healthText.text = "Health: " + (int)health;
 
 		player = GameObject.FindGameObjectWithTag("Player");
+		Debug.Log(player, player);
+	}
+
+	private void Start()
+	{
+		Debug.Log(player, player);
 	}
 
 
-	public void LoseAllHealth ()
+    public void LoseAllHealth ()
 	{
 		health = 0;
 

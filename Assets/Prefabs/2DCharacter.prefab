@@ -125,7 +125,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &9500000
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,10 +138,12 @@ Animator:
   m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &5000000
 Rigidbody2D:
   serializedVersion: 4
@@ -183,8 +185,8 @@ MonoBehaviour:
   m_MidAirJumpCount: 1
   m_AltMidAirJumpForce: 0
   m_ApplyMoveForce: 0
-  m_MaxSpeed: 10
-  m_AirMaxSpeed: 8
+  m_MaxSpeed: 8
+  m_AirMaxSpeed: 7
   m_MaxSustainedJumpSpeed: 5
   m_Accel: 30
   m_AirAccel: 20
@@ -197,14 +199,14 @@ MonoBehaviour:
   m_JumpSustainedDuration: 5
   m_JumpSustainedDurations:
   - 0
-  m_CrouchSpeed: 0.25
+  m_CrouchSpeed: 0.5
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 1
   m_SlimeTemporary: 0
   m_SlimeTempDuration: 5
-  m_SlimeTint: {r: 0.54509807, g: 0.8000001, b: 0.3372549, a: 1}
+  m_SlimeTint: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
   m_SlimeSpeedScale: 0.5
   m_SlimeAccellScale: 0.9
   m_SlimeJumpScale: 0.7

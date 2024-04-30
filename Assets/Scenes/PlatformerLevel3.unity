@@ -43111,6 +43111,11 @@ PrefabInstance:
       propertyPath: messageTarget
       value: 
       objectReference: {fileID: 1078676117}
+    - target: {fileID: 114447187853505002, guid: 2f460b54a19094f25a4aac7936a584a8,
+        type: 3}
+      propertyPath: bounceForce.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f460b54a19094f25a4aac7936a584a8, type: 3}
 --- !u!4 &2000654504 stripped
