@@ -156,7 +156,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 3
@@ -181,12 +181,12 @@ MonoBehaviour:
   m_LimitSustainedJumpSpeed: 1
   m_AltMidAirSustainedJumpForce: 0
   m_AltMidAirSustainedJumpDuration: 0
-  m_MidAirJump: 1
+  m_MidAirJump: 0
   m_MidAirJumpCount: 1
   m_AltMidAirJumpForce: 0
   m_ApplyMoveForce: 0
-  m_MaxSpeed: 8
-  m_AirMaxSpeed: 7
+  m_MaxSpeed: 7
+  m_AirMaxSpeed: 6
   m_MaxSustainedJumpSpeed: 5
   m_Accel: 30
   m_AirAccel: 20
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_JumpSustainedDurations:
   - 0
   m_CrouchSpeed: 0.5
-  m_AirControl: 1
+  m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 1
