@@ -5474,6 +5474,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScrapChild
       objectReference: {fileID: 0}
+    - target: {fileID: 4711383444292492365, guid: e6b26357c25b0934d9a08099673f4a2e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e400237b613645a4e9751c05e2d31bce,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6b26357c25b0934d9a08099673f4a2e, type: 3}
 --- !u!1001 &1506160282
@@ -7629,8 +7635,8 @@ Transform:
   - {fileID: 2101710058}
   - {fileID: 1119474573}
   - {fileID: 1560244117}
-  - {fileID: 335278880}
   - {fileID: 1049888205}
+  - {fileID: 335278880}
   - {fileID: 1892105470}
   - {fileID: 2102779638}
   - {fileID: 428442154}

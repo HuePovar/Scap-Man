@@ -332,6 +332,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScrapManCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 2309853763548905914, guid: 534ffb22dc21c874c80cb6ba804903aa,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e400237b613645a4e9751c05e2d31bce,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 534ffb22dc21c874c80cb6ba804903aa, type: 3}
 --- !u!1001 &354139687
