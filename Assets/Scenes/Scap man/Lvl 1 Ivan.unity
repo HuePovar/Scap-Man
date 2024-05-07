@@ -1170,6 +1170,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114392139160529752, guid: 000e66461b6444fb3b0655ffacaf6e44,
+        type: 3}
+      propertyPath: messageTarget
+      value: 
+      objectReference: {fileID: 1028472700}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 000e66461b6444fb3b0655ffacaf6e44, type: 3}
 --- !u!1001 &808603222
@@ -1567,10 +1572,21 @@ PrefabInstance:
     - target: {fileID: 114950018576456972, guid: 4943216ad344a4958a73b88c7fd80760,
         type: 3}
       propertyPath: levelName
-      value: Lvl1
+      value: Level 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114950018576456972, guid: 4943216ad344a4958a73b88c7fd80760,
+        type: 3}
+      propertyPath: nextLevelIndex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4943216ad344a4958a73b88c7fd80760, type: 3}
+--- !u!1 &1028472700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1330414110625154, guid: 4943216ad344a4958a73b88c7fd80760,
+    type: 3}
+  m_PrefabInstance: {fileID: 1028472699}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1087991571
 PrefabInstance:
   m_ObjectHideFlags: 0
