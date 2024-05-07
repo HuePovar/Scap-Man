@@ -737,6 +737,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6933562401186657496, guid: b5ec083ac48b7924db981e87fffe4718,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933562401186657496, guid: b5ec083ac48b7924db981e87fffe4718,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2132433803
+      objectReference: {fileID: 0}
     - target: {fileID: 6933562401186657497, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
       propertyPath: position1
@@ -760,12 +770,12 @@ PrefabInstance:
     - target: {fileID: 6933562401186657498, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 6933562401186657498, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -174.47083
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6933562401186657498, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
@@ -806,6 +816,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingPlatform__ (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933562401186657500, guid: b5ec083ac48b7924db981e87fffe4718,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ec083ac48b7924db981e87fffe4718, type: 3}
@@ -3091,6 +3106,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6933562401186657496, guid: b5ec083ac48b7924db981e87fffe4718,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933562401186657496, guid: b5ec083ac48b7924db981e87fffe4718,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2132433803
+      objectReference: {fileID: 0}
     - target: {fileID: 6933562401186657497, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
       propertyPath: position1
@@ -3114,12 +3139,12 @@ PrefabInstance:
     - target: {fileID: 6933562401186657498, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.515772
+      value: -18.78
       objectReference: {fileID: 0}
     - target: {fileID: 6933562401186657498, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -174.47083
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6933562401186657498, guid: b5ec083ac48b7924db981e87fffe4718,
         type: 3}
@@ -3160,6 +3185,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingPlatform__
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933562401186657500, guid: b5ec083ac48b7924db981e87fffe4718,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ec083ac48b7924db981e87fffe4718, type: 3}
@@ -4994,12 +5024,12 @@ PrefabInstance:
         type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 391418193}
     - target: {fileID: 114694640299868564, guid: f99b22d430a004700989b066d2c92e0e,
         type: 3}
       propertyPath: patrolPoints.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 853447231}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99b22d430a004700989b066d2c92e0e, type: 3}
 --- !u!1001 &1932625300
@@ -5061,12 +5091,12 @@ PrefabInstance:
         type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 430664458}
     - target: {fileID: 114694640299868564, guid: f99b22d430a004700989b066d2c92e0e,
         type: 3}
       propertyPath: patrolPoints.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 596791635}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99b22d430a004700989b066d2c92e0e, type: 3}
 --- !u!1001 &1950385905
