@@ -358,12 +358,12 @@ MonoBehaviour:
   m_MidAirJumpCount: 1
   m_AltMidAirJumpForce: 0
   m_ApplyMoveForce: 0
-  m_MaxSpeed: 7
-  m_AirMaxSpeed: 6
+  m_MaxSpeed: 5
+  m_AirMaxSpeed: 5
   m_MaxSustainedJumpSpeed: 5
   m_Accel: 30
   m_AirAccel: 20
-  m_JumpForce: 800
+  m_JumpForce: 750
   m_JumpForces:
   - 0
   m_JumpSustainedForce: 30
@@ -372,7 +372,7 @@ MonoBehaviour:
   m_JumpSustainedDuration: 5
   m_JumpSustainedDurations:
   - 0
-  m_CrouchSpeed: 0.5
+  m_CrouchSpeed: 0.8
   m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
