@@ -2781,9 +2781,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090649925874838, guid: 469d0c17a422c4472a68cd2af8da4612, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115609694092090, guid: 469d0c17a422c4472a68cd2af8da4612, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1435874800024170, guid: 469d0c17a422c4472a68cd2af8da4612, type: 3}
       propertyPath: m_Name
       value: UIPlatformer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872030974576242, guid: 469d0c17a422c4472a68cd2af8da4612, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1969693740294880, guid: 469d0c17a422c4472a68cd2af8da4612, type: 3}
       propertyPath: m_IsActive
