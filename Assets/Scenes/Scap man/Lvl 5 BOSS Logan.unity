@@ -815,6 +815,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.16981131
       objectReference: {fileID: 0}
+    - target: {fileID: 212368143562904452, guid: 0c401e746061c4013867f6e7c2d1f678,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c401e746061c4013867f6e7c2d1f678, type: 3}
 --- !u!1 &245671638
@@ -827,7 +832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 245671640}
   - component: {fileID: 245671639}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera Confiner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -876,7 +881,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &250026850
 PrefabInstance:
@@ -2888,6 +2893,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.16981131
       objectReference: {fileID: 0}
+    - target: {fileID: 212368143562904452, guid: 0c401e746061c4013867f6e7c2d1f678,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c401e746061c4013867f6e7c2d1f678, type: 3}
 --- !u!4 &1014290497 stripped
@@ -5826,7 +5836,7 @@ PrefabInstance:
     - target: {fileID: 5475891064062201821, guid: 65a8a0c31b26e244aa839647c8376026,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5475891064062201821, guid: 65a8a0c31b26e244aa839647c8376026,
         type: 3}
