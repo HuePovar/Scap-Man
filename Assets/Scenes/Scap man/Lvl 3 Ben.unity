@@ -675,11 +675,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.86927
+      value: 9.801945
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.948988
+      value: 2.949069
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1525,7 +1525,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186484915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.47, y: -8.21, z: 0}
+  m_LocalPosition: {x: 12.47, y: -8.21, z: -7.87}
   m_LocalScale: {x: 0.711186, y: 0.711186, z: 0.711186}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2720,6 +2720,12 @@ PrefabInstance:
       propertyPath: messageTarget
       value: 
       objectReference: {fileID: 863357076}
+    - target: {fileID: 212838292588326860, guid: 5120265b1fc124fc7a7679e1bce872f5,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ad3616a13eee0c409593fadfdc44ef4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5120265b1fc124fc7a7679e1bce872f5, type: 3}
 --- !u!4 &374747499 stripped
@@ -7147,6 +7153,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212765439410350930, guid: c2f0222e98f6a4901adc2b8f26929fe3,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212921073051052936, guid: c2f0222e98f6a4901adc2b8f26929fe3,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f0222e98f6a4901adc2b8f26929fe3, type: 3}
 --- !u!1 &1065621153
@@ -9970,7 +9986,7 @@ PrefabInstance:
     - target: {fileID: 5475891064062201821, guid: 65a8a0c31b26e244aa839647c8376026,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.81
+      value: 16.809998
       objectReference: {fileID: 0}
     - target: {fileID: 5475891064062201821, guid: 65a8a0c31b26e244aa839647c8376026,
         type: 3}
@@ -11340,6 +11356,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82217971060889494, guid: c2f0222e98f6a4901adc2b8f26929fe3,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 212765439410350930, guid: c2f0222e98f6a4901adc2b8f26929fe3,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212921073051052936, guid: c2f0222e98f6a4901adc2b8f26929fe3,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f0222e98f6a4901adc2b8f26929fe3, type: 3}
 --- !u!1001 &1728146559
@@ -12167,6 +12198,12 @@ PrefabInstance:
       propertyPath: messageTarget
       value: 
       objectReference: {fileID: 9654529}
+    - target: {fileID: 212838292588326860, guid: 5120265b1fc124fc7a7679e1bce872f5,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ad3616a13eee0c409593fadfdc44ef4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5120265b1fc124fc7a7679e1bce872f5, type: 3}
 --- !u!1 &1811978761
@@ -13200,6 +13237,12 @@ PrefabInstance:
       propertyPath: messageTarget
       value: 
       objectReference: {fileID: 1802713481}
+    - target: {fileID: 212838292588326860, guid: 5120265b1fc124fc7a7679e1bce872f5,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ad3616a13eee0c409593fadfdc44ef4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5120265b1fc124fc7a7679e1bce872f5, type: 3}
 --- !u!1 &2008604744
