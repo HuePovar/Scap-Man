@@ -41,16 +41,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PlatformerLevel10_Week6DemoBackgroundParallax.unity
     guid: 8c694c2c964d88b498871c97e8d385c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scap man/Menu.unity
     guid: 9d40d70d86072ec48a67bdfb0c319a42
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scap man/Lvl 1 Ivan.unity
     guid: 1216963e3a27af440b66f297393a3fea
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scap man/Lvl 2 Ivan.unity
     guid: 8cb2037e27e091f46bfadd1d0da41cb2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scap man/Lvl 3 Ben.unity
     guid: a6db0294f48ed564e95c0092a041674b
   - enabled: 0

@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 5510376315825891878}
   - component: {fileID: 6225885999391798042}
   - component: {fileID: 572239705110600760}
+  - component: {fileID: 8029696569424543638}
   m_Layer: 9
   m_Name: 2DCharacter
   m_TagString: Player
@@ -450,6 +451,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.68}
   m_EdgeRadius: 0
+--- !u!114 &8029696569424543638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013631641302745841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
+  m_ShapePath:
+  - {x: -0.14736578, y: -0.5309723, z: 0}
+  - {x: 0.20152502, y: -0.52830756, z: 0}
+  - {x: 0.11986801, y: -0.019839618, z: 0}
+  - {x: 0.17863834, y: 0.38855964, z: 0}
+  - {x: 0.13078809, y: 0.41305274, z: 0}
+  - {x: 0.13386358, y: 0.5412181, z: 0}
+  - {x: -0.0005263541, y: 0.54121923, z: 0}
+  - {x: -0.008824216, y: 0.42091778, z: 0}
+  - {x: -0.13147096, y: 0.38855964, z: 0}
+  - {x: -0.11664689, y: -0.051076964, z: 0}
+  m_ShapePathHash: -1841292262
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 187998
 --- !u!1 &3438889859350461503
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3438889859350461503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.174, y: 0.435, z: 0}
+  m_LocalPosition: {x: 0.063, y: 0.947, z: 0}
   m_LocalScale: {x: 0.5644829, y: 0.56448364, z: 1}
   m_Children:
   - {fileID: 2062796641068299457}
