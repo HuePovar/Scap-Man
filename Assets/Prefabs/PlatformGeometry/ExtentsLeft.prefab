@@ -559,6 +559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400014}
   - component: {fileID: 3705107193943307180}
+  - component: {fileID: 6534078936658218932}
   m_Layer: 0
   m_Name: ExtentsLeft
   m_TagString: Untagged
@@ -605,7 +606,7 @@ MonoBehaviour:
   m_HasRenderer: 0
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
-  m_SelfShadows: 0
+  m_SelfShadows: 1
   m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
   m_ShapePath:
   - {x: -0.0018035917, y: -0.00084994704, z: 0}
@@ -615,6 +616,26 @@ MonoBehaviour:
   m_ShapePathHash: 351985761
   m_Mesh: {fileID: 0}
   m_InstanceId: -225192
+--- !u!114 &6534078936658218932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8566902b50d5bfb4fb7f8b89f9cdbe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunLight: {fileID: 0}
+  minHeight: 10
+  minShadowDistance: 80
+  minShadowBias: 1.63
+  maxHeight: 1000
+  maxShadowDistance: 10000
+  maxShadowBias: 0.1
+  adaptTime: 1
 --- !u!1 &100016
 GameObject:
   m_ObjectHideFlags: 0
