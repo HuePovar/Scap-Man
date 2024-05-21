@@ -66,6 +66,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4104391000686646744}
+  - component: {fileID: 975680419988719262}
   m_Layer: 0
   m_Name: Wall_01x04
   m_TagString: Untagged
@@ -89,6 +90,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &975680419988719262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104391000686545400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
+  m_ShapePath:
+  - {x: 0.012632174, y: -0.011491832, z: 0}
+  - {x: 2.4962494, y: 0.00056994305, z: 0}
+  - {x: 2.4841874, y: 0.59649426, z: 0}
+  - {x: 0.006601093, y: 0.6085566, z: 0}
+  m_ShapePathHash: 80865706
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -242726
 --- !u!1 &4104391000686545406
 GameObject:
   m_ObjectHideFlags: 0
