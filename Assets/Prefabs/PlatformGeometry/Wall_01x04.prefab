@@ -66,7 +66,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4104391000686646744}
-  - component: {fileID: 975680419988719262}
+  - component: {fileID: 1159613066345265259}
+  - component: {fileID: -570899145096068678}
   m_Layer: 0
   m_Name: Wall_01x04
   m_TagString: Untagged
@@ -90,7 +91,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &975680419988719262
+--- !u!114 &1159613066345265259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104391000686545400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8566902b50d5bfb4fb7f8b89f9cdbe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunLight: {fileID: 0}
+  minHeight: -0.11
+  minShadowDistance: 80
+  minShadowBias: -152.5
+  maxHeight: 582
+  maxShadowDistance: 10012.55
+  maxShadowBias: -3.65
+  adaptTime: -2.8
+--- !u!114 &-570899145096068678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,13 +130,13 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
   m_ShapePath:
-  - {x: 0.012632174, y: -0.011491832, z: 0}
-  - {x: 2.4962494, y: 0.00056994305, z: 0}
-  - {x: 2.4841874, y: 0.59649426, z: 0}
-  - {x: 0.006601093, y: 0.6085566, z: 0}
-  m_ShapePathHash: 80865706
+  - {x: 0.0066010207, y: 0.0005702398, z: 0}
+  - {x: 2.5083115, y: -0.005461094, z: 0}
+  - {x: 2.5022802, y: 0.60855633, z: 0}
+  - {x: 0.0005700595, y: 0.62664974, z: 0}
+  m_ShapePathHash: 869341080
   m_Mesh: {fileID: 0}
-  m_InstanceId: -242726
+  m_InstanceId: 171286
 --- !u!1 &4104391000686545406
 GameObject:
   m_ObjectHideFlags: 0
