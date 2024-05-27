@@ -132,7 +132,7 @@ namespace UnityStandardAssets._2D
             m_AutoCam = GameObject.Find("MultipurposeCameraRig").GetComponent<UnityStandardAssets.Cameras.AutoCam>();
             m_SpriteRenderer = GetComponent<SpriteRenderer>();
 
-            m_RunAudioSource = transform.Find("RunAudioSource").GetComponent<AudioSource>();
+           // m_RunAudioSource = transform.Find("RunAudioSource").GetComponent<AudioSource>();
 
             DefaultRigidBodySettings();     // Setting the defaults for Rigidbody mass etc.
         }
@@ -283,7 +283,7 @@ namespace UnityStandardAssets._2D
                     }
                     case ApplyMoveForce.Additive:
                     {
-                        
+
                         float accel = m_Accel * m_s_AScale;     // Reduce the acceleration if slimed.
 
                         // Use a different parameter for air acceleration.
