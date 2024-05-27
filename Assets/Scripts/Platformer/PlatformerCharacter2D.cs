@@ -46,8 +46,11 @@ namespace UnityStandardAssets._2D
         private float m_defaultDrag = 0f;               // Default Rigidbody 2D drag - which get changed when in the Slimed state.
         private float m_defaultAngularDrag = 0f;        // Default Rigidbody 2D angular drag - which get changed when in the Slimed state.
         private SpriteRenderer m_SpriteRenderer;        // Reference to the player's sprite renderer component.
+
         private AudioSource m_JumpAudioSource;          // Reference to the player's jump audio source.
         private AudioSource m_MidAirJumpAudioSource;    // Reference to the player's mid air jump audio source.
+        private AudioSource m_RunAudioSource; //Player running
+
         private float m_HurtTimer = 0f;
         private float m_HurtTime = 0.5f;
         private bool m_Hurt = false;
@@ -128,6 +131,8 @@ namespace UnityStandardAssets._2D
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
             m_AutoCam = GameObject.Find("MultipurposeCameraRig").GetComponent<UnityStandardAssets.Cameras.AutoCam>();
             m_SpriteRenderer = GetComponent<SpriteRenderer>();
+
+            m_RunAudioSource = transform.Find("RunAudioSource").GetComponent<AudioSource>();
 
             DefaultRigidBodySettings();     // Setting the defaults for Rigidbody mass etc.
         }
