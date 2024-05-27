@@ -283,6 +283,7 @@ namespace UnityStandardAssets._2D
                     }
                     case ApplyMoveForce.Additive:
                     {
+                        
                         float accel = m_Accel * m_s_AScale;     // Reduce the acceleration if slimed.
 
                         // Use a different parameter for air acceleration.
@@ -605,6 +606,15 @@ namespace UnityStandardAssets._2D
             {
                 m_JumpAudioSource.pitch = UnityEngine.Random.Range(0.85f, 1.10f);
                 m_JumpAudioSource.Play();
+            }
+        }
+
+        private void PlayRunSound()
+        {
+            if (m_RunAudioSource)
+            {
+                m_RunAudioSource.pitch = UnityEngine.Random.Range(0.85f, 1.10f);
+                m_RunAudioSource.Play();
             }
         }
 
