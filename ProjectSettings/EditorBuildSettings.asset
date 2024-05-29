@@ -101,4 +101,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scap man/Outro D.unity
     guid: 8b23e529c32e12e43a3072815bfbef92
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Credits.unity
+    guid: 4af9f8c279105b64490b8216070573b6
   m_configObjects: {}
