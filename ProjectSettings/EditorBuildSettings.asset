@@ -45,6 +45,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Scap man/Menu.unity
     guid: 9d40d70d86072ec48a67bdfb0c319a42
   - enabled: 1
+    path: Assets/Scenes/Scap man/Intro A.unity
+    guid: beade3203fa005f47a38d9c0f018336f
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro B.unity
+    guid: 576644d6b0aed5b4b829d5e69c08a014
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro C.unity
+    guid: 25acdecd49e31f840861deb8b03b0714
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro D.unity
+    guid: b87a3f267a3ca514aac4591f169e6e40
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro E.unity
+    guid: 17d51db3f96b84c4d911bbbb7793be03
+  - enabled: 1
     path: Assets/Scenes/Scap man/Lvl 1 Ivan.unity
     guid: 1216963e3a27af440b66f297393a3fea
   - enabled: 1
