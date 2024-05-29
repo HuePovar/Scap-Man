@@ -41,6 +41,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PlatformerLevel10_Week6DemoBackgroundParallax.unity
     guid: 8c694c2c964d88b498871c97e8d385c0
+  - enabled: 0
+    path: Assets/Scenes/Scap man/Lvl 4 Ben.unity
+    guid: b2631fcb98f9bf747b957993cf82b368
+  - enabled: 0
+    path: Assets/Scenes/Scap man/Intro G.unity
+    guid: 8ec61872ece93bc4e943303aa722141c
   - enabled: 1
     path: Assets/Scenes/Scap man/Menu.unity
     guid: 9d40d70d86072ec48a67bdfb0c319a42
@@ -60,6 +66,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Scap man/Intro E.unity
     guid: 17d51db3f96b84c4d911bbbb7793be03
   - enabled: 1
+    path: Assets/Scenes/Scap man/Intro H.unity
+    guid: 3e26906f246235c4aa57f1220921ad49
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro I.unity
+    guid: 04cd41a9950b5a1459c0495eef07ef71
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro J.unity
+    guid: 43ff805c36ed147459150f31470cf7ef
+  - enabled: 1
+    path: Assets/Scenes/Scap man/Intro K.unity
+    guid: ed2691e37d41f5449864f261ac3a2143
+  - enabled: 1
     path: Assets/Scenes/Scap man/Lvl 1 Ivan.unity
     guid: 1216963e3a27af440b66f297393a3fea
   - enabled: 1
@@ -68,9 +86,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scap man/Lvl 3 Ben.unity
     guid: a6db0294f48ed564e95c0092a041674b
-  - enabled: 0
-    path: Assets/Scenes/Scap man/Lvl 4 Ben.unity
-    guid: b2631fcb98f9bf747b957993cf82b368
   - enabled: 1
     path: Assets/Scenes/Scap man/Lvl 5 BOSS Logan.unity
     guid: 4d059ff85b1ca4644b1978e6f3b3ff74
